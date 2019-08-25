@@ -18,6 +18,18 @@
                                         ></v-text-field>
                                     </v-flex>
 
+                                    <template>
+                                        <v-file-input show-size v-model="car_file" label="Carte grise"></v-file-input>
+                                    </template>
+
+                                    <template>
+                                        <v-file-input show-size label="Certificat Assurances"></v-file-input>
+                                    </template>
+
+                                    <template>
+                                        <v-file-input show-size multiple label="Autres (selectionner plusieurs)"></v-file-input>
+                                    </template>
+
                                     <v-flex class="title text-center align-content-center mt-1">
                                         ARBITRE 1
                                     </v-flex>
@@ -89,6 +101,10 @@
                                             </v-flex>
                                         </v-row>
                                     </v-flex>
+
+                                    <template>
+                                        <v-file-input show-size label="Note de frais"></v-file-input>
+                                    </template>
 
                                     <v-flex class="title text-center align-content-center mt-1">
                                         ARBITRE 2
@@ -163,6 +179,10 @@
                                             </v-flex>
                                         </v-row>
                                     </v-flex>
+
+                                    <template>
+                                        <v-file-input show-size label="Note de frais"></v-file-input>
+                                    </template>
 
                                     <v-flex class="title text-center align-content-center mt-1">
                                         RENCONTRE
